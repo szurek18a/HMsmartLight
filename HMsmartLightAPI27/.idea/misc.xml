@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.215" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/drawable/ic_launcher_background.xml" value="0.215" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/activity_main.xml" value="0.39010416666666664" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/activity_sterowanie.xml" value="0.2" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/deletepopup.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/faqxml.xml" value="0.3151041666666667" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/fragment_first.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/fragment_second.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/listview_font.xml" value="0.15020263424518743" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/network_security_config.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/popupdanewifi.xml" value="0.4" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/spinner_font.xml" value="0.309375" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/ustawzegar.xml" value="0.4" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/layout/wifipopup.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/menu/my_menu.xml" value="0.3145833333333333" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/menu/my_menu_glowne.xml" value="0.3145833333333333" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.215" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.215" />
+        <entry key="..\:/Users/Szurek/AndroidStudioProjects/HMsmartLightAPI27/app/src/main/res/xml/network_security_config.xml" value="0.213768115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

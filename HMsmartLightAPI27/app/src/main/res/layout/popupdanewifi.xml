@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F72F3033"
+    android:fitsSystemWindows="true"
+    android:isScrollContainer="false">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="Fill all infomations to pair device:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNazwaUrzadzenia"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNazwaUrzadzenia"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="256dp"
+        android:backgroundTint="#673AB7"
+        android:ems="10"
+        android:hint="Device name      e.g. (Kitchen Bulb)"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextHasloSieci"
+        android:layout_width="319dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#673AB7"
+        android:ems="10"
+        android:hint="Your home Wi-Fi password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAkceptacjaDanych"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_wifi" />
+
+    <Button
+        android:id="@+id/buttonAkceptacjaDanych"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#673AB7"
+        android:text="Pair"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextHasloSieci" />
+
+    <Spinner
+        android:id="@+id/spinner_wifi"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="#673AB7"
+        android:dropDownSelector="#673AB7"
+        android:popupBackground="@color/cardview_dark_background"
+        app:layout_constraintBottom_toTopOf="@+id/editTextHasloSieci"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNazwaUrzadzenia" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Choose your home Wi-Fi"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNazwaUrzadzenia" />
+</android.support.constraint.ConstraintLayout>

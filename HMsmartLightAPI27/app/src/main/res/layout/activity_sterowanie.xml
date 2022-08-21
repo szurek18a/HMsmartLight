@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F72F3033"
+    android:scrollbarSize="20dp"
+    tools:context=".Sterowanie">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <com.larswerkman.holocolorpicker.ColorPicker
+        android:id="@+id/picker"
+        android:layout_width="342dp"
+        android:layout_height="343dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="360dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.larswerkman.holocolorpicker.SVBar
+        android:id="@+id/svbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/picker" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="306dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:max="255"
+        android:min="0"
+        android:progress="127"
+        android:progressTint="#9D00FF"
+        android:scrollbarSize="15dp"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="104dp"
+        android:text="Brightness"
+        android:textColor="#D5FFFFFF"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/svbar"
+        tools:text="Brightness"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonSteady"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="28dp"
+        android:background="#673AB7"
+        android:text="Steady"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRainbow"
+        app:layout_constraintTop_toTopOf="@+id/seekBar" />
+
+    <Button
+        android:id="@+id/buttonRainbow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="32dp"
+        android:background="#673AB7"
+        android:text="Rainbow"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/buttonStrobe"
+        app:layout_constraintTop_toTopOf="@+id/seekBar" />
+
+    <Button
+        android:id="@+id/buttonStrobe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="36dp"
+        android:background="#673AB7"
+        android:text="Crazy"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seekBar" />
+
+</android.support.constraint.ConstraintLayout>
